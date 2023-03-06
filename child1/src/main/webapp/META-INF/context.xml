@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/child1">
+	<Resource
+		auth="Container"
+		closeMethod="close"
+		defaultAutoCommit="false"
+		defaultCatalog="GroupImageDB"
+		driverClassName="org.postgresql.Driver"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+		logAbandoned="true"
+		name="jdbc/GroupImageDS"
+		password="J6zj4fu6"
+		removeAbandoned="true"
+		rollbackOnReturn="true"
+		testOnBorrow="true"
+		testOnReturn="true"
+		testWhileIdle="true"
+		type="javax.sql.DataSource"
+		url="jdbc:postgresql://localhost:5432/GroupImageDB"
+		username="fuqiwu"
+		validationQuery="SELECT 1"
+	/>
+</Context>
